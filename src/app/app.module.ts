@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OpenCloseComponent } from './open-close/open-close.component';
 import { MaterialModule } from './materials/materials.module';
+import { StatusSliderComponent } from './status-slider/status-slider.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { MaterialModule } from './materials/materials.module';
     HomeComponent,
     routingComponents,
     AboutComponent,
-    OpenCloseComponent
+    OpenCloseComponent,
+    StatusSliderComponent
   ],
   imports: [
     BrowserModule,
