@@ -1,7 +1,6 @@
-<nav>
-    <button  mat-raised-button color="accent" (click)="toggle()">Toggle Status</button>
-  </nav>
-  
+<div class="container-fluid">
+  <button  mat-raised-button color="accent" (click)="toggle()">Toggle Status</button>  
   <div [@slideStatus]="status" class="box">
     {{ status == 'active' ? 'Active' : 'Inactive' }}
   </div>
+</div>

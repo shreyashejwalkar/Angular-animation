@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { OpenCloseComponent } from './open-close/open-close.component';
 import { StatusSliderComponent } from './status-slider/status-slider.component';
+import { EnterLeaveComponent } from './enter-leave/enter-leave.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path :"home", component:HomeComponent },
   {path: "about", component:AboutComponent},
   {path: "open-close", component:OpenCloseComponent},
-  {path: "status-slider", component:StatusSliderComponent}
+  {path: "status-slider", component:StatusSliderComponent},
+  {path: "enter-leave", component:EnterLeaveComponent}
 ];
 
 @NgModule({
@@ -19,4 +21,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents= [HomeComponent, AboutComponent, OpenCloseComponent,StatusSliderComponent];
+export const routingComponents= [HomeComponent, AboutComponent, OpenCloseComponent,StatusSliderComponent,EnterLeaveComponent];
