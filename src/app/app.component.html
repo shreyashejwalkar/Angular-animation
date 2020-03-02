@@ -1,12 +1,11 @@
 
 <div class="container">
   <h1 style="text-align: center;">Welcome to {{title}}</h1>
-  </div>
-  <nav>
-    <a id="home"routerLink="/home" routerLinkActive="active" >Home</a>
-    <a id="about" routerLink="/about" routerLinkActive="active">about</a>
-    <a  id="open-close"routerLink="/open-close" routerLinkActive="active">Open/close</a>
-  </nav>
-
+</div>
+<div class="example-button-row">
+  <button  mat-raised-button color="primary" id="home"routerLink="/home" routerLinkActive="active" >Home</button>
+  <button  mat-raised-button color="accent" id="about" routerLink="/about" routerLinkActive="active">about</button>
+  <button  mat-raised-button color="warn" id="open-close"routerLink="/open-close" routerLinkActive="active">Open/close</button>
+</div>
  
-    <router-outlet></router-outlet>
+<router-outlet></router-outlet>

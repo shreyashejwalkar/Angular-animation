@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OpenCloseComponent } from './open-close/open-close.component';
+import { MaterialModule } from './materials/materials.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { OpenCloseComponent } from './open-close/open-close.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
